@@ -1,0 +1,43 @@
+.title, .name {
+    font-family: "Luckiest Guy", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bio, .job {
+    font-family: "PT Sans", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title {
+    text-transform: uppercase;
+    color: #D9381E;
+    text-align: center;
+    font-size: 3em;
+}
+.borders {
+    display: flex;
+    justify-content:space-around;
+}
+.slide {
+    max-width: max(25%, 200px);
+    height: 440px;
+    text-align: center;
+    display: flex;
+    flex-grow: 0;
+    align-items: center;
+    border-left: 1em solid white;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #E5E5E5;
+}
+.slide img {
+    max-width: 80%;
+}
+.bio {
+    margin: 0 10px;
+    font-size: max(100%, 1.1em);
+}
+.name {
+    color: #D9381E;
+    font-size: 1.2em;
+}
+.job {
+    color: #7A7A7A;
+    font-size: 0.8em;
+}
