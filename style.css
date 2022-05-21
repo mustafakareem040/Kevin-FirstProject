@@ -31,7 +31,7 @@
 }
 .bio {
     margin: 0 10px;
-    font-size: max(100%, 1.1em);
+    font-size: 1.1em;
 }
 .name {
     color: #D9381E;
